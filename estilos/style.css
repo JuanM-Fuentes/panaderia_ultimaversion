@@ -50,13 +50,24 @@ a{
 .estilo-footer{
     background-color:#F0E5D4;
     margin-top: 20px;
+    align-items: center;
 }
 .social-link{
     font-size: 42px;
+    align-items: center;
 }
 /* Fin de Index*/
 
 /* Productos*/
 .bg-color{
     background-color: #EBDCC2;
+}
+.back-pasteleria{
+    background-color: #EBDCC2;
+}
+.back-contactanos{
+    background-color: #EBDCC2
+}
+.back-servicios{
+    background-color: #EBDCC2
 }
