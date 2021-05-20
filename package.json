@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include-path scss style/style.scss estilos/style.css",
+    "build-css": "node-sass --include-path scss style/style.scss estilos/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/JuanM-Fuentes/panaderia_ultimaversion/issues"
   },
-  "homepage": "https://github.com/JuanM-Fuentes/panaderia_ultimaversion#readme"
+  "homepage": "https://github.com/JuanM-Fuentes/panaderia_ultimaversion#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
 }
-
