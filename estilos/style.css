@@ -1,73 +1,62 @@
-body{
-    margin:0;
-    padding: 0;
-}
-/*header*/
+body {
+  margin: 0;
+  padding: 0; }
 
-.nav-item{
-    background-color: #E7933B;
-    border-radius: 20px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-.estilo-header{
-    font-size: 16px;
-}    
+/*header*/
+.nav-item {
+  background-color: #E7933B;
+  border-radius: 20px;
+  margin-top: 0;
+  margin-bottom: 25px; }
+
+.estilo-header {
+  font-size: 16px; }
 
 /*slider*/
+.carousel-item {
+  margin-top: 10px;
+  margin-bottom: 25px; }
 
-.carousel-item{
-    margin-top: 10px;
-    margin-bottom: 25px;
-}
 /*section*/
+.estilo-section {
+  background-color: #EBDCC2;
+  margin-bottom: 15px; }
 
-.estilo-section{
-    background-color: #EBDCC2;
-    margin-bottom: 15px;
-}
-a{
-    color: #483918;
-}
+a {
+  color: #483918; }
+
 /*aside*/
+.estilo-aside {
+  background-color: #F7F0E3;
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
-.estilo-aside{
-    background-color: #F7F0E3;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-    
 /*article*/
-
-.estilo-article{
-    background-color: #EBDCC2;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
+.estilo-article {
+  background-color: #EBDCC2;
+  margin-top: 10px;
+  margin-bottom: 25px; }
 
 /*footer*/
+.estilo-footer {
+  background-color: #F0E5D4;
+  margin-top: 20px;
+  align-items: center; }
 
-.estilo-footer{
-    background-color:#F0E5D4;
-    margin-top: 20px;
-    align-items: center;
-}
-.social-link{
-    font-size: 42px;
-    align-items: center;
-}
+.social-link {
+  font-size: 45px;
+  align-items: center; }
+
 /* Fin de Index*/
-
 /* Productos*/
-.bg-color{
-    background-color: #EBDCC2;
-}
-.back-pasteleria{
-    background-color: #EBDCC2;
-}
-.back-contactanos{
-    background-color: #EBDCC2
-}
-.back-servicios{
-    background-color: #EBDCC2
-}
+.bg-color {
+  background-color: #EBDCC2; }
+
+.back-pasteleria {
+  background-color: #EBDCC2; }
+
+.back-contactanos {
+  background-color: #EBDCC2; }
+
+.back-servicios {
+  background-color: #EBDCC2; }
