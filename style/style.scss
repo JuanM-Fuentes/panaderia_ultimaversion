@@ -3,7 +3,10 @@ body{
     padding: 0;
 }
 /*header*/
-
+.nav-link{
+    padding: 30px !important;
+    padding-bottom: 100px !important;
+}
 .nav-item{
     background-color: #E7933B;
     border-radius: 20px;
@@ -11,7 +14,7 @@ body{
     margin-bottom: 25px;
 }
 .estilo-header{
-    font-size: 16px;
+    font-size: 18px;
 }    
 
 /*slider*/
@@ -66,10 +69,10 @@ a{
     background-color: #EBDCC2;
 }
 .back-contactanos{
-    background-color: #EBDCC2
+    background-color: #EBDCC2;
 }
 .back-servicios{
-    background-color: #EBDCC2
+    background-color: #EBDCC2;
 }
 
 .img-logo{
@@ -77,5 +80,8 @@ a{
 }
 
 .bg-light{
-    background-color: #E7933B;
+    background-color: #E7933B !important;
+}
+.pd-10{
+    padding-top: 10px;
 }
