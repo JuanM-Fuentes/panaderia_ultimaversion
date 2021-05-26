@@ -35,7 +35,13 @@ a {
 .estilo-article {
   background-color: #EBDCC2;
   margin-top: 10px;
-  margin-bottom: 25px; }
+  margin-bottom: 10px; }
+
+.img {
+  padding: 15px !important; }
+
+.pd-10 {
+  padding-top: 10px; }
 
 /*footer*/
 .estilo-footer {
