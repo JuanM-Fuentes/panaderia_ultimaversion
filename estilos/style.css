@@ -4,8 +4,7 @@ body {
 
 /*header*/
 .nav-link {
-  padding: 30px !important;
-   }
+  padding: 30px !important; }
 
 .nav-item {
   background-color: #E7933B;
@@ -17,14 +16,11 @@ body {
   font-size: 18px; }
 
 /*slider*/
-.carousel-item {
-  margin-top: 10px;
-  margin-bottom: 25px; }
-
 /*section*/
 .estilo-section {
   background-color: #EBDCC2;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-top: 15px; }
 
 a {
   color: #483918; }
@@ -43,7 +39,7 @@ a {
 
 /*footer*/
 .estilo-footer {
-  background-color: #F0E5D4;
+  background-color: #E7933B;
   margin-top: 20px;
   align-items: center; }
 
@@ -64,9 +60,6 @@ a {
 
 .back-servicios {
   background-color: #EBDCC2; }
-
-.img-logo {
-  border-radius: 30px; }
 
 .bg-light {
   background-color: #E7933B !important; }
