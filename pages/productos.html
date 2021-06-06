@@ -11,12 +11,13 @@
     
 </head>
 <body>
-    <header>
+    <header class="estilo-header">
         <!-- Logo -->
         <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img class="img-logo" src="../estilos/img/logo-vertical.png" width="350px" height="80px" alt="">
+        <img class="img-logo" src="../estilos/img/logo-vertical.png" width="350px" height="80px" alt="">
         </a>
+        
         <!--Barra de navegacion-->
         <ul class="nav justify-content-end">
             <li class="nav-item">
@@ -34,9 +35,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="contactanos.html">Contactanos</a>
           </li>
-      </ul>
+        </ul>
         </nav> 
-    </header>
+    </header>     
     
     <!--Article Productos-->
     <article class="estilo-article">
@@ -46,37 +47,37 @@
             <div class="row col-4_mod">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <a class="thumb" href="../estilos/img/productos1.jpeg">
-                        <img src="../estilos/img/productos1.jpeg"alt="">
+                        <img class="pd-10" src="../estilos/img/productos1.jpeg"alt="">
                         <span class="thumb_overlay"></span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <a class="thumb" href="../estilos/img/productos2.jpeg">
-                        <img src="../estilos/img/productos2.jpeg" alt="">
+                        <img class="pd-10" src="../estilos/img/productos2.jpeg" alt="">
                         <span class="thumb_overlay"></span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <a class="thumb" href="../estilos/img/productos3.jpeg">
-                        <img src="../estilos/img/productos3.jpeg" alt="">
+                        <img class="pd-10" src="../estilos/img/productos3.jpeg" alt="">
                         <span class="thumb_overlay"></span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <a class="thumb" href="../estilos/img/productos4.jpeg">
-                        <img src="../estilos/img/productos4.jpeg" alt="">
+                        <img class="pd-10" src="../estilos/img/productos4.jpeg" alt="">
                         <span class="thumb_overlay"></span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <a class="thumb" href="../estilos/img/productos5.jpeg">
-                        <img src="../estilos/img/productos5.jpeg" alt="">
+                        <img class="pd-10" src="../estilos/img/productos5.jpeg" alt="">
                         <span class="thumb_overlay"></span>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <a class="thumb" href="../estilos/img/productos6.jpeg">
-                        <img src="../estilos/img/productos6.jpeg" alt="">
+                        <img class="pd-10" src="../estilos/img/productos6.jpeg" alt="">
                         <span class="thumb_overlay"></span>
                     </a>
 
@@ -87,7 +88,7 @@
     </article>
     
     <!--Section Productos-->
-    <section>
+    <section class="bg-productos">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-4">Amplia variedad de productos gourmet</h1>
@@ -138,19 +139,41 @@
     <!--Footer-->
     <footer class="estilo-footer">
         <div class="container">
-            <div class="social-link">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="#"><i class="bi bi-twitter"></i></a>
-                <hr>
-            </div>    
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="texto-footer">
+                        <ul>
+                            <li>Direción: Av del Trabajador 432</li>
+                            <li>Provincia de Neuquén - Cutral-có</li>
+                            <li>Teléfono:299-4966066</li>
+                        </ul>
+                    </div>    
+                </div>      
+                
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="social-link">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <hr>
+                    </div>
+                </div>
 
-            <h5 class="copyright">
-                <span>Via Veneto ©</span>
-                <span id="copyright-year">2021</span>
-                <a href="index-6.html">Politica privacidad</a>.
-                Terminos y condiciones
-            </h5>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img class="img-logo" src="../estilos/img/logo-vertical.png" width="350px" height="80px" alt="">
+                </div>
+                
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h5 class="copyright">
+                        <span>Via Veneto ©</span>
+                        <span id="copyright-year">2021</span>
+                        <a href="index-6.html">Politica privacidad</a>.
+                        Terminos y condiciones
+                    </h5>
+                </div>
+            </div>
+
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

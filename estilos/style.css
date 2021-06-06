@@ -34,24 +34,25 @@ a {
 /*article*/
 .estilo-article {
   background-color: #EBDCC2;
-  margin-top: 10px;
   margin-bottom: 10px; }
 
 .img {
   padding: 15px !important; }
 
 .pd-10 {
-  padding-top: 10px; }
+  padding-right: 30px;
+  padding-bottom: 15px; }
 
 /*footer*/
 .estilo-footer {
   background-color: #E7933B;
-  margin-top: 20px;
-  align-items: center; }
+  margin-top: 20px; }
 
 .social-link {
-  font-size: 45px;
-  align-items: center; }
+  font-size: 60px; }
+
+.texto-footer {
+  font-size: 12px; }
 
 /* Fin de Index*/
 /* Productos*/
@@ -70,5 +71,8 @@ a {
 .bg-light {
   background-color: #E7933B !important; }
 
-.pd-10 {
-  padding-top: 10px; }
+.jumbotron {
+  background-color: #483918 !important; }
+
+.bg-productos {
+  color: white; }
