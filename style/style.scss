@@ -64,11 +64,21 @@ a{
 }
 .social-link{
     font-size: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
     
-
 }
 .texto-footer{
     font-size: 12px;
+    padding-top: 40px;
+    list-style: none;
+}
+.texto-footer li{
+  list-style: none;
+}
+.img-footer{
+  padding-top: 30px;
+  margin-left: 30px;
 }
 /* Fin de Index*/
 
@@ -114,6 +124,9 @@ background-color: #483918 !important;
   /*Contactanos*/
   .estilo-contactanos{
       background-color: #EBDCC2 ;
+      padding-top: 20px;
+      margin-top: 20px;
+
   }
   .mb-50 {
     margin-bottom: 50px;
