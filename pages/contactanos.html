@@ -41,24 +41,36 @@
       </ul>
         </nav> 
     </header>
-    <!--Section-->
-    <div class="back-contactanos">
-        <form action="#">
+    <div class="estilo-contactanos">
+        <div class="container">
+            <div class="row">
+                    <div class="contact-form col-md-7 col-xs-12 mb-50">
+                        <h3 class="block-title">Formulario de Contacto</h3>
+                        <form id="contact-form" action="mail.php" method="post">
+                            <div class="input-box input-2"><input type="text" name="name" placeholder="Tu nombre"></div>
+                            <div class="input-box input-2"><input type="email" name="email" placeholder="Email"></div>
+                            <div class="input-box"><textarea name="message" placeholder="Mensaje"></textarea></div>
+                            <div class="input-box"><input type="submit" value="Aceptar"></div>
+                        </form>
+                    </div>    <p class="form-messege"></p>
+            
+                <!-- Contact Map -->
+                <div class="contact-map col-md-5 col-xs-12 mb-50">
+                    <div class="single-contact-info text-center mb-30">
+                        <h4>Email</h4>
+                        <p>contacto@Viaveneto.com.ar</p>
+                    </div>
 
-            <label for="nombre" class="label-color">Nombre:
-            <input type="text" name="nombre"> </label><br><br>
-            <label for="apellido" class="label-color">Apellido:
-            <input type="text" name="apellido"> </label><br><br>
-            <label for="direccion" class="label-color">Dirección:
-            <input type="text" name="direccion"> </label><br><br>
-            <label for="email" class="label-color">Email:
-            <input type="text" name="email"> </label><br><br>
-  
-            <input type="submit" value="ENVIAR"><br>
-        
-        </form>
+                    <div class="single-contact-info text-center">
+                        <h4>Dirección</h4>
+                        <p>Av del trabajo 432 - Cutral-có (CP:8322) <br>
+                            Prov. de Neuquén - República Argentina</p>
+                        <br><br>
+                    </div>
+                </div>
+            </div>   
+        </div>
     </div>    
-
     <!--Footer-->
     <footer class="estilo-footer">
         <div class="container">
