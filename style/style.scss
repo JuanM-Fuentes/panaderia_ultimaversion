@@ -11,6 +11,13 @@ body {
 
 
 /*header*/
+.nav-link.active {
+  border-bottom: solid 2px #483918;
+  font-weight: bold;
+}
+.nav-item a:hover {
+  font-weight: bold;
+}
 .nav-item{
     background-color: #E7933B;
 }
@@ -23,12 +30,6 @@ body {
   padding-right: 50px;
 }
 
-.nav-item a:hover{
-  text-decoration: underline;
-  color: white;
-  font-weight : 600;
-
-}
 a:hover{
   color: #483918;
 }
@@ -49,9 +50,9 @@ a:hover{
 .thumb{
   overflow: hidden;
 }
-.img-index:hover{
+.thumb img:hover{
   transition: all 0.5s ease-in-out;
-  transform: scale(1,2);
+  transform: scale(1.2,1.2);
 }
 .pd-section{
   padding-top: 20px;
@@ -137,7 +138,6 @@ a{
   text-align: center;
   margin: 30px 0;
 }
-/* Fin de Index*/
 
 /* Productos*/
 .estilo-productos{
@@ -341,12 +341,13 @@ textarea {
 .bg-servicios{
   background-color: #EBDCC2;
   padding-bottom: 20px;
-  flex: 1;
+  
 }
 .back-servicios{
   background-color:#F7F0E3;
   padding-top: 40px;
   padding-bottom: 60px;
+  flex: 1;
 }
 .pd-servicios{
   margin-top: 30px;
