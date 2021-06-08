@@ -1,11 +1,16 @@
-body{
-    margin:0;
-    padding: 0;
+html {
+  height: 100%;
 }
+
+body {
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+
+
+
 /*header*/
-.navbar{
-  padding: 0 !important;
-}
 .nav-item{
     background-color: #E7933B;
 }
@@ -18,9 +23,14 @@ body{
   padding-right: 50px;
 }
 
+.nav-item a:hover{
+  text-decoration: underline;
+  color: white;
+  font-weight : 600;
+
+}
 a:hover{
-  text-decoration: none;
-  color: #161004;
+  color: #483918;
 }
 
 /*section*/
@@ -35,6 +45,13 @@ a:hover{
   display: block;
   width: 100%;
   height: auto;
+}
+.thumb{
+  overflow: hidden;
+}
+.img-index:hover{
+  transition: all 0.5s ease-in-out;
+  transform: scale(1,2);
 }
 .pd-section{
   padding-top: 20px;
@@ -79,6 +96,9 @@ a{
 
 
 /*footer*/
+.footer {
+  margin-top: auto;
+ }
 
 .estilo-footer{
   background-color: #E7933B;
@@ -124,7 +144,10 @@ a{
   background-color: #EBDCC2;
   padding-bottom: 40px;
   padding-top: 30px;
-
+  flex: 1;
+}
+.mb-2, .my-{
+  padding-top: 20px;
 }
 .titulo-productos{
   font-size: 24px;
@@ -204,6 +227,7 @@ margin-bottom: 0 !important;
 .estilo-contactanos{
   background-color: #EBDCC2 ;
   padding-top: 40px;
+  flex: 1;
 }
 
 .input-box{
@@ -317,6 +341,7 @@ textarea {
 .bg-servicios{
   background-color: #EBDCC2;
   padding-bottom: 20px;
+  flex: 1;
 }
 .back-servicios{
   background-color:#F7F0E3;
