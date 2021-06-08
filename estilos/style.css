@@ -39,7 +39,7 @@ a:hover {
 
 .thumb {
   overflow: hidden;
-  margin-bottom: 30px; }
+  margin-bottom: 40px; }
 
 .thumb img:hover {
   transition: all 0.5s ease-in-out;
