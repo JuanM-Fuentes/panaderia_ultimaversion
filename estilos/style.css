@@ -162,7 +162,7 @@ a {
 .titulo-pasteleria {
   padding-top: 15px;
   padding-bottom: 20px;
-  color: #483918; }
+  color: #483918 !important; }
 
 .espaciado {
   letter-spacing: 1px;
