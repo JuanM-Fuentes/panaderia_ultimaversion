@@ -18,7 +18,8 @@ body {
   background-color: #E7933B; }
 
 .estilo-header {
-  font-size: 14px; }
+  font-size: 14px;
+  min-height: 87px; }
 
 .justify-content-end {
   padding-right: 50px; }

@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+  .texto-footer {
+    text-align: center;
+    margin-bottom: 30px; }
+  .img-aside {
+    width: 100%; }
+  .img-index {
+    padding-top: 20px; }
+  .pd-servicios {
+    padding-top: 30px;
+    text-align: center; }
+  .l-height {
+    padding-bottom: 30px; } }

@@ -11,34 +11,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/mobile.css">
     
 </head>
 <body>
     <header class="estilo-header">
-        <!-- Logo -->
-        <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-        <img class="img-logo" src="../estilos/img/logo-vertical.png" width="225px" height="61px" alt="">
-        </a>
+        <!-- Logo --> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                
+                <a class="navbar-brand" href="#">
+                    <img class="img-logo" src="../estilos/img/logo-vertical.png" width="225px" height="61px" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
         
         <!--Barra de navegacion-->
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="pasteleria.html">Pasteleria</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contactanos.html">Contactanos</a>
-          </li>
-        </ul>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+            <ul class="navbar-nav justify-content-end ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pasteleria.html">Pasteleria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+       </div>    
         </nav> 
     </header>     
         
@@ -68,7 +75,7 @@
 
                         <h4 class="pd-section"><strong><a href="#">Nuestra Mision</a></strong></h4>
 
-                        <p>¡Mímate con nuestros panes sabor natural!<strong>Utilizamos solo ingredientes de la mejor calidad</strong> que le proporcionan a su cuerpo fibra y nutrientes importantes. Para las <strong>personas que padecen alergias, ofrecemos una deliciosa gama de productos sin trigo ni levadura.</strong>
+                        <p class="margen-index">¡Mímate con nuestros panes sabor natural!<strong>Utilizamos solo ingredientes de la mejor calidad</strong> que le proporcionan a su cuerpo fibra y nutrientes importantes. Para las <strong>personas que padecen alergias, ofrecemos una deliciosa gama de productos sin trigo ni levadura.</strong>
                         </p>
 
                     </div>
@@ -102,15 +109,19 @@
         <aside class="estilo-aside">
             <div class="container">  
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="media">
-                            <img src="../estilos/img/aside1.jpeg" class="align-self-center mr-3" alt="..">
-                            <div class="media-body">
-                                <h5 class="mt-0">¿Cuánto tiempo permanece tan delicioso?</h5>
-                                <p>En general, dado que nuestros panes están hechos con levas naturales o pre-fermentos,<strong>se mantienen frescos por mucho más tiempo que los panes estándar de fábrica de proceso rápido</strong>. En buenas condiciones, los panes durarán aproximadamente una semana a temperatura ambiente. Para el pan que comerá el mismo día o el siguiente, simplemente deje el pan en la tabla de cortar con el extremo cortado hacia abajo. O <strong>manténgalo envuelto en una bolsa de papel o cúbralo sin apretar con una bolsa de plástico.</strong> </p>
-                                <p class="mb-0">Para un almacenamiento más prolongado, la congelación es una excelente opción. Simplemente<strong> envuelva bien el pan en una bolsa de plástico y congélelo. Cuando lo retire, déjelo reposar en la bolsa hasta que desaparezcan los signos de las gotas de agua.</strong></p>
-                            </div>
-                        </div>
+                    <div class="col-md-5 col-sm-12 col-xs-12">
+                        <img class="img-aside"  src="../estilos/img/aside1.jpeg"  alt="..">
+                    </div>        
+                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                    <div class="media-body">
+                                        <h5 class="mt-0">¿Cuánto tiempo permanece tan delicioso?</h5>
+                                        <p>En general, dado que nuestros panes están hechos con levas naturales o pre-fermentos,<strong>se mantienen frescos por mucho más tiempo que los panes estándar de fábrica de proceso rápido</strong>. En buenas condiciones, los panes durarán aproximadamente una semana a temperatura ambiente. Para el pan que comerá el mismo día o el siguiente, simplemente deje el pan en la tabla de cortar con el extremo cortado hacia abajo. O <strong>manténgalo envuelto en una bolsa de papel o cúbralo sin apretar con una bolsa de plástico.</strong> </p>
+                                        <p class="mb-0">Para un almacenamiento más prolongado, la congelación es una excelente opción. Simplemente<strong> envuelva bien el pan en una bolsa de plástico y congélelo. Cuando lo retire, déjelo reposar en la bolsa hasta que desaparezcan los signos de las gotas de agua.</strong></p>
+                                    </div>    
+                            
+                            
+                                </div>    
+                        
                     </div>
                 </div>
             </div>
